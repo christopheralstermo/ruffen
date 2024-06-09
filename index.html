@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive design-->
+    <title>Ruffen</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- LOREM -->
+    <!-----  COVER  ----->
+    <div class="cover">
+        <img class="cover-profile" src="profile.png">
+        <h1>Ruffen 26.01.22</h1>
+        <p>En ekte hund med flere års erfaring som pålitelig vakthold</p>
+
+        <div style="text-align: center; margin-top: 10px;"> <!-- Lager en div kun for centerstyle -->
+            <a class="button" href="mailto:ruffen@bjeff.no?subject=hællæ%20påræ">KONTAKT</a>
+        </div>
+
+        <div class="cover-contact">
+            <a href="mailto:ruffen@bjeff.no?subject=hællæ%20påræ">ruffen@bjeff.no</a> <!-- (?subject= gir emne, %20 er space) -->
+            <a href="tel:+4712345678">12 34 56 78</a>
+        </div>
+    </div>
+
+
+    <!-----  GRAY 1  ----->
+    <div class="section gray-section-1">
+        <div class="separator"></div>
+        <p>Hunden som er fullstendig gal!</p>
+    </div>
+
+
+    <!--  WHITE  -->
+    <div class="section" style="overflow: auto;">
+        <h2 class="first">Om meg</h2>
+        <img class="col40" src="profile3.jpg">
+        <div class="col60 float-right">
+            <div class="vertline">
+                <p>Jeg er en liten hund, som løper rundt og passer mine egne saker. <br><br>Med mindre jeg lurer på hva du driver med da..<br><br> Da må jeg nesten passe dine saker også..
+                
+                </p>
+                <a href="#"><br>mer info her</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  GRAY2  -->
+    <div class="section gray-section-2">
+        <h2>Portefølje</h2>
+        <table class="portfolio" style="display: inline-block;"> <!-- Display: block er default -->
+            <tr>
+                <td><div class="vertbar"></div></td>
+                <td><a href="index2.html"><img src="enern.jpg" width="100%"></a></td>  <!-- bredden skal være 100% av det definerte i table-stylen -->
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><a href="index2.html">Det første årer</a></td>
+            </tr>
+
+        </table>
+        <table class="float-right portfolio"> <!-- tvinges til høyre (og opp pga inline-block linje 56)  -->
+            <tr>
+                <td><div class="vertbar"></div></td>
+                <td><img src="dude3.jpg" width="100%"></td>  <!-- bredden skal være 100% av det definerte i table-stylen -->
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><a href="#">Det andre året</a></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <!--  WHITE  -->
+    <div class="display-mobile"></div>
+    <div class="section">
+        <iframe src="iframe.html" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
